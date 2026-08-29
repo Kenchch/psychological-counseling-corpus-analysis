@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title description">
+  <title id="title">Keyword patterns in LLM and human counselling transcripts</title>
+  <desc id="description">A two-panel bar chart transcribing the top keyword frequencies reported in Tables 3 and 4 of the submitted corpus analysis.</desc>
+  <rect width="1200" height="700" fill="#fbfcfe"/>
+  <text x="600" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#1b263b">Reported keyword patterns in counselling transcripts</text>
+  <text x="600" y="82" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#52616b">Frequencies transcribed from Tables 3 and 4 of the submitted corpus analysis</text>
+  <rect x="60" y="120" width="520" height="510" rx="12" fill="#edf6ff" stroke="#b9d9f4"/>
+  <rect x="620" y="120" width="520" height="510" rx="12" fill="#fff3e8" stroke="#f3cda7"/>
+  <text x="90" y="160" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0b4f8a">LLM transcript keywords</text>
+  <text x="650" y="160" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#a34d08">Human transcript keywords</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#243447">
+    <text x="90" y="220">support</text><rect x="235" y="197" width="290" height="28" rx="4" fill="#267abf"/><text x="535" y="220">1,094</text>
+    <text x="90" y="295">emotions</text><rect x="235" y="272" width="283" height="28" rx="4" fill="#267abf"/><text x="528" y="295">1,068</text>
+    <text x="90" y="370">acknowledging</text><rect x="235" y="347" width="283" height="28" rx="4" fill="#267abf"/><text x="528" y="370">1,067</text>
+    <text x="90" y="445">specific</text><rect x="235" y="422" width="255" height="28" rx="4" fill="#267abf"/><text x="500" y="445">961</text>
+    <text x="90" y="520">conversation</text><rect x="235" y="497" width="244" height="28" rx="4" fill="#267abf"/><text x="489" y="520">919</text>
+    <text x="650" y="220">yeah</text><rect x="790" y="197" width="290" height="28" rx="4" fill="#d97706"/><text x="1090" y="220">5,741</text>
+    <text x="650" y="295">kind</text><rect x="790" y="272" width="195" height="28" rx="4" fill="#d97706"/><text x="995" y="295">3,853</text>
+    <text x="650" y="370">hmm</text><rect x="790" y="347" width="167" height="28" rx="4" fill="#d97706"/><text x="967" y="370">3,310</text>
+    <text x="650" y="445">well</text><rect x="790" y="422" width="135" height="28" rx="4" fill="#d97706"/><text x="935" y="445">2,678</text>
+    <text x="650" y="520">um</text><rect x="790" y="497" width="96" height="28" rx="4" fill="#d97706"/><text x="896" y="520">1,909</text>
+  </g>
+  <text x="600" y="668" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#52616b">Bars are scaled independently within each panel; use the printed values for comparison.</text>
+</svg>

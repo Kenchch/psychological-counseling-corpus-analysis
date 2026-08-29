@@ -6,19 +6,25 @@ An ethical, reproducible corpus-analysis project that compares language patterns
 
 ## What is included
 
-\`\`\`text
+```text
 src/corpus_analysis.py   Reproducible analysis CLI
 data/*_example/          Tiny fictional examples for a safe smoke test
 data/README.md           Expected private-data layout and handling guidance
 tests/                   Utility tests
-Psychological Counseling Corpus Analysis.docx  Original report
-\`\`\`
+assets/                  Report-derived keyword visual summary
+```
 
 The source counselling transcripts are not included. They may be sensitive, copyrighted, or subject to consent restrictions. Use only de-identified, approved material and keep it out of version control.
 
+## Report-derived visual summary
+
+![Keyword patterns reported for LLM and human counselling transcripts](assets/keyword-comparison.svg)
+
+This visual is a transcription of the top reported keyword frequencies in Tables 3 and 4 of the submitted analysis. The source DOCX did not contain embedded images, so the chart preserves the reported table values without uploading the document itself.
+
 ## Setup and example
 
-\`\`\`bash
+```bash
 python -m venv .venv
 . .venv/bin/activate                 # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -26,13 +32,13 @@ python -m nltk.downloader wordnet omw-1.4 stopwords
 
 python src/corpus_analysis.py \
   --human data/human_example --llm data/llm_example --output output/example
-\`\`\`
+```
 
-The command creates CSV tables and a JSON summary in \`output/example/\`. For a real study, supply folders containing one UTF-8 \`.txt\` session per file:
+The command creates CSV tables and a JSON summary in `output/example/`. For a real study, supply folders containing one UTF-8 `.txt` session per file:
 
-\`\`\`bash
+```bash
 python src/corpus_analysis.py --human /secure/path/human --llm /secure/path/llm --output output/study
-\`\`\`
+```
 
 ## Method
 
